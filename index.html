@@ -1,0 +1,139 @@
+
+<link rel="stylesheet" href="style.css">
+
+
+
+<div class="minifigure">
+    <div class="head">
+      <div class="faces-wrap">
+        <div class="faces">
+          <div class="face classic">
+            <div class="eye right"></div>
+            <div class="eye left"></div>
+            <div class="mouth"></div>
+          </div>
+  
+          <div class="face smile">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+  
+          <div class="face large-smile">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+  
+          <div class="face worried">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+  
+          <div class="face frown">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+  
+          <div class="face surprised">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="upper-body">
+      <div class="torso"></div>
+      <div class="arm right">
+        <div class="hand right"></div>
+      </div>
+      <div class="arm left">
+        <div class="hand left"></div>
+      </div>
+    </div>
+    <div class="lower-body">
+      <div class="waist"></div>
+      <div class="crotch"></div>
+      <div class="leg right"></div>
+      <div class="leg left"></div>
+    </div>
+  </div>
+  
+  <div class="controls">
+    <h2 class="title">Controls</h2>
+    
+    <button class="button explode">Explode</button>
+    <button class="button randomize">Randomize</button>
+    
+    <fieldset class="head-expression">
+      <legend>Head</legend>
+      
+      <div class="form-element">
+        <label for="expression">Expression</label>
+        <input id="expression" class="expression-range expression" name="expression" type="range" min="0" max="500" step="100" value="0">
+      </div>
+    </fieldset>
+    
+    <fieldset class="upper-color">
+      <legend>Upper Body</legend>
+      
+      <div class="form-element">
+        <label for="upper-hue">Hue</label>
+        <input id="upper-hue" class="color-range upper-hue" name="upper-hue" type="range" min="0" max="360" value="200">
+      </div>
+      
+      <div class="form-element">
+        <label for="upper-saturation">Saturation</label>
+        <input id="upper-saturation" class="color-range upper-saturation" name="upper-saturation" type="range" min="0" max="100" value="0">
+      </div>
+      
+      <div class="form-element">
+        <label for="upper-lightness">Lightness</label>
+        <input id="upper-lightness" class="color-range upper-lightness" name="upper-lightness" type="range" min="0" max="90" value="90">
+      </div>
+    </fieldset>
+    
+    <fieldset class="lower-color">
+      <legend>Lower Body</legend>
+      
+      <div class="form-element">
+        <label for="lower-hue">Hue</label>
+        <input id="lower-hue" class="color-range lower-hue" name="lower-hue" type="range" min="0" max="360" value="200">
+      </div>
+      
+      <div class="form-element">
+        <label for="lower-saturation">Saturation</label>
+        <input id="lower-saturation" class="color-range lower-saturation" name="lower-saturation" type="range" min="0" max="100" value="0">
+      </div>
+      
+      <div class="form-element">
+        <label for="lower-lightness">Lightness</label>
+        <input id="lower-lightness" class="color-range lower-lightness" name="lower-lightness" type="range" min="0" max="90" value="90">
+      </div>
+    </fieldset>
+  </div>
+  <script src="script.js"></script>
+  
